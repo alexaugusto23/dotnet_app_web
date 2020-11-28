@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXCSjLQaw00WkaKz0/aH2IgAAAAACAAAAAAAQZgAAAAEAACAAAADJxo29BYjGIkbhiTRrgz5ZmN4zzmkGf0fV0K3oNagsZgAAAAAOgAAAAAIAACAAAADsXU9c/A74S3Yds3OudxXFtGiAIa3/b3NR6YB/Fd9qZ4AAAACuM/ab4UGSfTytjZ9zh+5+lrC5BgJQQljYr3QkcPVYytfFNrpg0w9S80csiuhSC+q9aizqgE0vyMfguIfU/YIem+i+1cwqX3jhu3Nq38X4CUIc0yWeTFcc637CgjBlsPvH5U5ygbOS9idQLOcT3nfizfVX4fQkW6YK5C8D2stFKEAAAACjr+8F8LoEZ+6mfsDCPQe7JOfK4hI6fnzD8285imCwh0yuS9VdBIEcw2NL4GgZwZf3pbTjnU/wOvRv6EwfhapI</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="cursomvcdbserveralex">
+      <Value>Data Source=tcp:cursomvcdbserveralex.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=sa_alex%40cursomvcdbserveralex%3bPassword=Music2989#</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CursoMVC.Models.Context">
+      <Value>Data Source=tcp:cursomvcdbserveralex.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=sa_alex%40cursomvcdbserveralex%3bPassword=Music2989#</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -12,7 +12,10 @@ namespace CursoMVC.Models
         public DbSet<Produto> Produtos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         {
-            optionsBuilder.UseSqlServer(connectionString:@"Server=ALEX;Database=Curso_mvc;Integrated Security=true");
+            //optionsBuilder.UseSqlServer(connectionString: @"Server=ALEX;Database=Curso_mvc;Integrated Security=true");
+            optionsBuilder.UseSqlServer(connectionString: @"Data Source = tcp:cursomvcdbserveralex.database.windows.net,1433; Initial Catalog = CursoMVC_db; User Id = sa_alex@cursomvcdbserveralex; Password = Music2989#");
+
+            
         }
     }
 }

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\git\dotnet_app_web\CursoMVC\CursoMVC\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="C:\git\dotnet_app_web\CursoMVC\CursoMVC\obj\Release\net5.0\PubTmp\EFSQLScripts\CursoMVC.Models.Context.sql" />
+</sitemanifest>
